@@ -1,4 +1,5 @@
 from fastmcp import FastMCP
+import yfinance as yf
 app = FastMCP("My MCP Server")
 # 第一個工具；提供一個加法工具
 @app.tool
